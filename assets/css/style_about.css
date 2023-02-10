@@ -4,7 +4,7 @@
     box-sizing: border-box;
     
 }
-
+/* ARREGLOS EN HEADER*/
 header{
     background-image: url(../image1.jpg);
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ header>h1{
     min-height: 10vh;
 }
 
-
+/* ARREGLOS EN NAV*/
 
 nav a{
     display: inline-block;
@@ -48,4 +48,25 @@ a[href="./about.html"]{
 
 a:active{
     background-color: red;
+}
+
+/* ARREGLOS EN MAIN*/
+
+main{
+    background-color: rgb(118, 244, 139) ;
+}
+
+main img{
+    width: 20rem;
+    display:inline-block;
+    margin-left: 9rem;
+    
+}
+
+main article{
+    margin-left: 10rem;
+}
+
+main p{
+    margin-left: 1rem;
 }
