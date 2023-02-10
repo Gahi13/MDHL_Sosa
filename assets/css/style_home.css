@@ -5,9 +5,12 @@
     
 }
 
+/* ARREGLOS EN HEADER*/
 header{
     background-image: url(../image1.jpg);
-    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     
     
 }
@@ -20,12 +23,12 @@ header{
 header>h1{
     display: inline-block;
     padding: 1rem;
-    
+    text-align: left;
     min-height: 10vh;
 }
 
 
-
+/* ARREGLOS EN NAV*/
 nav a{
     display: inline-block;
     background-color: blue;
@@ -48,4 +51,24 @@ a[href="#"]{
 
 a:active{
     background-color: red;
+}
+
+/* ARREGLOS EN MAIN*/
+main{
+    background-color: rgb(118, 244, 139);
+}
+main h2 {
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+main article{
+
+    margin-left: 10rem;
+
+}
+
+main p{
+    margin-left: 2rem;
 }
