@@ -49,3 +49,19 @@ a[href="./contact.html"]{
 a:active{
     background-color: red;
 }
+
+/* MODIFICACIONES EN EL MAIN*/
+
+main {
+    background-color: rgb(118, 244, 139);
+}
+
+main img{
+    width: 300px;
+    margin-left: 10rem;
+}
+
+main article{
+    margin-left: 6rem;
+    
+}
