@@ -10,7 +10,7 @@ header{
     width: 80vw;
     height: 25vh;
     margin: 30px 10% 0.2% ;
-    background-image: url(../image1.jpg);
+    background-image: url(../images/image1.jpg);
     background-repeat: no-repeat;
     background-position: 0 30%;
     background-size: cover;
@@ -78,6 +78,7 @@ a:active{
 /* ARREGLOS EN MAIN*/
 main{
     background-color: white;
+    position: relative;
 }
 .principal{
     background-color:black;
@@ -94,4 +95,24 @@ main article{
 main p{
     margin-left: 2rem;
     text-align:initial;
+}
+
+#imagen2{
+    position: absolute;
+    width: 9rem;
+    height: 8rem;
+    margin-top: 12%;
+    margin-left: 1%;
+    border-radius: 20%;
+    border-style:dashed;
+}
+
+#imagen3{
+    position: absolute;
+    width: 25rem;
+    height: 15rem;
+    margin-top: 1%;
+    margin-left: 45%;
+    
+    border-style:initial;
 }
