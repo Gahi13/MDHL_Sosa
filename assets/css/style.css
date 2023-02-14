@@ -2,87 +2,81 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family:'Times New Roman', Times, serif;
 }
 
 /* ARREGLOS EN HEADER*/
 header{
-    min-height: 10vh;;
-    margin: 5% 3% 0.2% ;
+    min-height: 10vh;
+    /*margin: 5% 3% 0.2% ;*/
     background-image: url(../images/image1.jpg);
     background-repeat: no-repeat;
-    background-position: 0 30%;
-    background-size: cover;
-    padding: 4rem;
-    position: relative;
-    
-    
+    background-position: 60% 80%;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
 }
 
 #logo{
-    
-    width: 12%;
-    position: absolute;
-    left: 1%;
-    margin: -30% 0% -18% 0%;
-    bottom: 0%;
-    z-index: 2;
-    
+    width: 20%;
+    align-self:center;
 }
 
 header>h1{
-    
-    display: inline-block;
-    color:black;
-    position: absolute;
-    left: 10%;
-    margin: 0% 0% 15% -10%;
-    bottom: 0%;
-    z-index: 2; 
-    font-size: 200%;
+    color:rgb(143, 245, 220);
+    font-size: 4.5rem;
+    flex-grow: 1;
+    text-shadow: .5rem .5rem black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 /* ARREGLOS EN NAV*/
 nav{
-    display: inline-block;
-    position: absolute;
-    right: 0%;
-    margin: 2% 6% 14% 7%;
-    bottom: -5%;
-    z-index:2;
+    display:flex;
+    gap: 0%;
+    flex-direction:row;
+    flex-wrap: wrap;
+   
 }
 nav a{
     
-    background-color: blue;
+    background-color: rgb(200, 138, 232);
     color: white;
-    border-style: initial;
-    border-style:inset;
-    width: 5rem;
+    width: 7.5rem;
     height: 2rem;
-    text-align: center;
     text-decoration:none;
-    
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-wrap: wrap;
     
 }
 
 a[href="#"]{
-    background-color: green;
+    background-color: rgb(118, 218, 255);
     color: white;
 }
 
 a:active{
-    background-color: red;
+    background-color: rgb(251, 87, 87);
 }
 
 /* ARREGLOS EN MAIN*/
 main{
-    background-color: white;
+    background-image: url(../images/fondo.jpg);
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
     min-height: 80vh;
     position: relative;
 }
 .principal{
-    background-color:white;
+   /* background-color:white;*/
     color: black;
     border-style: solid;
     text-align: center;
