@@ -69,29 +69,56 @@ a:active{
 
 /* ARREGLOS EN MAIN*/
 main{
-    background-image: url(../images/fondo.jpg);
-    /*background-repeat: no-repeat;*/
+    background-image: url(../images/fondobody.jpg);
     background-size: cover;
     min-height: 80vh;
-    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
 }
+/* PAGINA HOME*/
 .principal{
-   /* background-color:white;*/
+   background-color:rgb(229, 191, 248);
     color: black;
-    border-style: solid;
+    border-style:solid;
     text-align: center;
+    font-size: 2.5rem;
+    align-self:self-start;
+    
 }
 
-main article{
-
-    margin-left: 10rem;
+.home{
+    
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 3rem;
 
 }
 
-main p{
-    margin-left: 2rem;
-    text-align:initial;
-}
+#events{
+    padding: 2rem;
+} 
+/*
+#snoppy{
+    align-items: start;
+    height: 20rem;
+    width: 25rem;
+    ;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #imagen2{
     position: absolute;
