@@ -113,24 +113,38 @@ footer{
     margin: 0% 0% 2%;
 }
 /*-----------------------------------------------------------------PAGINA ABOUT------------------------------------------------------------*/
-
-
-
+#about{
+    padding: 3rem;
+    font-size: 160%;
+}
+#about h3{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: .5%;
+    font-size: 160%;
+}
+.mision{
+    display:flex;
+    align-items:center;
+}
+#gif{
+    height: 15rem;
+    width: 25rem;
+    margin: 3% 8% 2% 3%;
+    border-style:none;
+}
+#palos{
+    width: 13rem;
+    height: 16rem;
+    margin-left: 42%;
+}
 #imagen2{
-    width: 9rem;
-    height: 8rem;
-    margin-top: 12%;
-    margin-left: 1%;
+    width: 25rem;
+    height: 20rem;
+    margin: 0% 0% 2% 35%;
     border-radius: 20%;
     border-style:dashed;
 }
-
-
-
-
-
-
-
 /*-------------------------------------------------------------------PAGINA CONTACT---------------------------------------------------------*/
 #imagen3{
     position: absolute;
