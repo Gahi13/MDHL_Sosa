@@ -4,7 +4,6 @@
     box-sizing: border-box;
     font-family:'Times New Roman', Times, serif;
 }
-
 /* ARREGLOS EN HEADER*/
 header{
     min-height: 10vh;
@@ -19,12 +18,10 @@ header{
     justify-content:space-between;
     flex-direction: column;
 }
-
 #logo{
     width: 15%;
     align-self:center;
 }
-
 header>h1{
     color:rgb(143, 245, 220);
     font-size: 4.5rem;
@@ -32,18 +29,14 @@ header>h1{
     text-shadow: .5rem .5rem black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-
 /* ARREGLOS EN NAV*/
 nav{
     display:flex;
     gap: 0%;
     flex-direction:row;
     flex-wrap: wrap;
-   
 }
 nav a{
-    
     background-color: rgb(200, 138, 232);
     color: white;
     width: 7rem;
@@ -56,18 +49,14 @@ nav a{
     justify-content: center;
     border-radius: 50%;
     flex-wrap: wrap;
-    
 }
-
 a[href="#"]{
     background-color: rgb(118, 218, 255);
     color: white;
 }
-
 a:active{
     background-color: rgb(251, 87, 87);
 }
-
 /* ARREGLOS EN MAIN*/
 main{
     background-image: url(../images/fondobody.jpg);
@@ -98,37 +87,22 @@ footer{
     text-align: center;
     font-size: 2.5rem;
     align-self:self-start;
-    
 }
-
 .home{
+    padding: 3rem;
+    font-size: 200%;
     display: flex;
-    /*text-align: center;*/
-    font-size: 1.5rem;
-    justify-content: center;
-   
-    gap: 1rem;
-    flex-wrap: wrap;
-   
-
+    flex-direction: row;
+    flex-wrap: wrap; 
 }
-
-.events{
-    padding: 2rem;
-    
-    flex-direction: column-reverse;
+.home dt, dd{
     text-align: center;
-    
-
-} 
-
+}
 #snoppy{
     height: 20rem;
-    width: 25rem;  
+    width: 25rem;     
 }
-
-
-
+/*-----------------------------------------------------------------PAGINA ABOUT------------------------------------------------------------*/
 
 
 
