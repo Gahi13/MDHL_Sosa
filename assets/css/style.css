@@ -115,7 +115,7 @@ footer{
 /*-----------------------------------------------------------------PAGINA ABOUT------------------------------------------------------------*/
 #about{
     padding: 3rem;
-    font-size: 160%;
+    font-size: 200%;
 }
 #about h3{
     text-align: center;
@@ -146,13 +146,32 @@ footer{
     border-style:dashed;
 }
 /*-------------------------------------------------------------------PAGINA CONTACT---------------------------------------------------------*/
+#contact{
+    font-size: 300%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact p{
+    margin: 1% 2% 1% 3%;
+    align-self: center;
+}
+#kitty{
+    width: 30rem;
+    height: 30rem;
+    padding: .9rem;
+    margin: 1% 5% 1% 15%;
+    border-style: dotted;
+    border-color: blue;
+}
 #imagen3{
-    position: absolute;
-    width: 25rem;
-    height: 15rem;
-    margin-top: 1%;
-    margin-left: 45%;
-    border-style:initial;
+    
+    width: 35rem;
+    height: 25rem;
+    padding: .9rem;
+    margin: 1% 5% 2% 5%;
+    border-style: outset;
+    border-color: rgb(255, 207, 50);
+    align-self: center;
 }
 /*---------------------------------------------------------PAGINA GAMES-------------------------------------------------------------------*/
 #fechas{
