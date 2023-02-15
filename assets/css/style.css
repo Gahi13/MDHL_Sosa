@@ -21,7 +21,7 @@ header{
 }
 
 #logo{
-    width: 20%;
+    width: 15%;
     align-self:center;
 }
 
@@ -46,8 +46,9 @@ nav a{
     
     background-color: rgb(200, 138, 232);
     color: white;
-    width: 7.5rem;
-    height: 2rem;
+    width: 7rem;
+    height: 3rem;
+    font-size: 110%;
     text-decoration:none;
     font-weight: bolder;
     display: flex;
@@ -71,15 +72,27 @@ a:active{
 main{
     background-image: url(../images/fondobody.jpg);
     background-size: cover;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
-
     flex-direction: column;
     flex-wrap: wrap;
 }
-/* PAGINA HOME*/
+footer{
+    min-height: 5vh;
+    background-color: rgb(229, 191, 248);
+    border-style:solid;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 150%;
+    align-items:center;
+}
+.nombre{
+    width: 30%;
+    margin: 0% 0% 0% 70%;
+} 
+/*----------------------------------------------------------------PAGINA HOME--------------------------------------------------------------*/
 .principal{
-   background-color:rgb(229, 191, 248);
+    background-color:rgb(229, 191, 248);
     color: black;
     border-style:solid;
     text-align: center;
@@ -89,23 +102,30 @@ main{
 }
 
 .home{
-    
-    text-align: center;
+    display: flex;
+    /*text-align: center;*/
     font-size: 1.5rem;
-    padding: 3rem;
+    justify-content: center;
+   
+    gap: 1rem;
+    flex-wrap: wrap;
+   
 
 }
 
-#events{
+.events{
     padding: 2rem;
+    
+    flex-direction: column-reverse;
+    text-align: center;
+    
+
 } 
-/*
+
 #snoppy{
-    align-items: start;
     height: 20rem;
-    width: 25rem;
-    ;
-}*/
+    width: 25rem;  
+}
 
 
 
@@ -129,7 +149,6 @@ main{
     border-radius: 20%;
     border-style:dashed;
 }
-
 #imagen3{
     position: absolute;
     width: 25rem;
@@ -138,3 +157,58 @@ main{
     margin-left: 45%;
     border-style:initial;
 }
+/*---------------------------------------------------------PAGINA GAMES-------------------------------------------------------------------*/
+#fechas{
+    background-image: url(../images/discofuego.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    border-radius: 15px;
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+}
+.titulo{
+    background-color: rgb(7, 7, 7);
+    color: #e8a4d9;
+}
+caption{
+    color: rgb(236, 236, 236);
+    font-size: 120%;
+    text-shadow: .1rem .1rem black;
+}
+.destacar{
+    background-color: aqua;
+    color: black;
+}
+th, td{
+    padding: .4rem;
+}
+tbody tr:nth-child(even){
+    background-color: #e8a4d9;
+}
+tbody tr:nth-child(odd), thead tr, tfoot tr{
+    background-color: rgb(179, 240, 173);
+
+}
+.adicional{
+    font-size: 150%;
+    padding: .10rem;
+    margin: 2% 10% 0% 10%;
+    border-top-style:dotted ;
+    display: flex;
+    flex-direction:column;
+}
+#centrar{
+    text-align: center;
+}
+.derecha{
+    text-align: right;
+} 
+#coordinador{
+    font-weight: bold;
+}
+/*---------------------------------------------------------------PAGINA RULES---------------------------------------------------------------/*
