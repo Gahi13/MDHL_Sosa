@@ -98,24 +98,25 @@ footer{
 .home dt, dd{
     text-align: center;
 }
-#snoppy{
+.home dl{
+    margin-top: 10%;
+}
+#snoppy, #imagen1{
     height: 20rem;
     width: 25rem;     
+}
+#imagen1{
+    border-radius: 40%;
+    border-color: black;
+    border-style: solid;
+    padding: .3rem;
+    margin: 0% 0% 2%;
 }
 /*-----------------------------------------------------------------PAGINA ABOUT------------------------------------------------------------*/
 
 
 
-
-
-
-
-
-
-
-
 #imagen2{
-    position: absolute;
     width: 9rem;
     height: 8rem;
     margin-top: 12%;
@@ -123,6 +124,14 @@ footer{
     border-radius: 20%;
     border-style:dashed;
 }
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------PAGINA CONTACT---------------------------------------------------------*/
 #imagen3{
     position: absolute;
     width: 25rem;
