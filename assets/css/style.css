@@ -66,6 +66,15 @@ main{
     flex-direction: column;
     flex-wrap: wrap;
 }
+.principal{
+    background-color:rgb(229, 191, 248);
+    color: black;
+    border-style:solid;
+    text-align: center;
+    font-size: 3rem;
+    align-self:self-start;
+}
+/*ARREGLO DEL FOOTER*/
 footer{
     min-height: 5vh;
     background-color: rgb(229, 191, 248);
@@ -78,16 +87,8 @@ footer{
 .nombre{
     width: 30%;
     margin: 0% 0% 0% 70%;
-} 
-/*----------------------------------------------------------------PAGINA HOME--------------------------------------------------------------*/
-.principal{
-    background-color:rgb(229, 191, 248);
-    color: black;
-    border-style:solid;
-    text-align: center;
-    font-size: 2.5rem;
-    align-self:self-start;
 }
+/*----------------------------------------------------------------PAGINA HOME--------------------------------------------------------------*/
 .home{
     padding: 3rem;
     font-size: 200%;
@@ -164,7 +165,6 @@ footer{
     border-color: blue;
 }
 #imagen3{
-    
     width: 35rem;
     height: 25rem;
     padding: .9rem;
@@ -188,7 +188,7 @@ footer{
     gap: .5rem;
     margin-top: .9%;
 }
-.titulo{
+thead th{
     background-color: rgb(7, 7, 7);
     color: #e8a4d9;
 }
@@ -219,7 +219,7 @@ tbody tr:nth-child(odd), thead tr, tfoot tr{
     display: flex;
     flex-direction:column;
 }
-#centrar{
+.adicional h2{
     text-align: center;
 }
 .derecha{
@@ -235,7 +235,7 @@ tbody tr:nth-child(odd), thead tr, tfoot tr{
 }
 #medio{
     text-align: center;
-    font-size: 150%;
+    font-size: 180%;
 }
 #hockey{
     padding: 2%;
@@ -243,7 +243,7 @@ tbody tr:nth-child(odd), thead tr, tfoot tr{
     height: 10%;
     width: 20%;
 }
-.gol{
+.parrafo{
     display: flex;
     align-items: center;
 }
@@ -264,7 +264,7 @@ dt{
     list-style-type:lower-alpha;
     margin: 0% 3%;
 }
-#listita{
+.parrafo ul{
     list-style-type: disc;
     margin-left: 10%;
     padding: .4rem;
