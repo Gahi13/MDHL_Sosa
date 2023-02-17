@@ -27,21 +27,22 @@
         <section>
             <h1 class="principal">Registration Form</h1>
         <div>
-            <form>
+            <form action="./show_data.html" method="get">
+                <p><strong>Those marked with (*) are mandatory</strong></p>
                 <div id="arriba">
                     <div class="texto">
-                        <label for="nombre">Player's First Name</label>
-                        <input type="text" name="nombre" id="nombre">
-                        <label for="apellido">Last Name</label>
-                        <input type="text" name="apellido" id="apellido">
+                        <label for="nombre">Player's First Name*</label>
+                        <input required type="text" name="nombre" id="nombre">
+                        <label for="apellido">Last Name*</label>
+                        <input required type="text" name="apellido" id="apellido">
                         <label for="address">Street Address</label>
                         <input type="address" name="address" id="address">
                         <label for="city">City</label>
                         <input type="text" name="city" id="city">
                         <label for="postal">Zip Code</label>
-                        <input type="number" name="postal" id="postal">
-                        <label for="nacimiento">Birth Date</label>
-                        <input type="date" name="nacimiento" id="nacimiento">
+                        <input type="number" name="postal" id="postal" min="0">
+                        <label for="nacimiento">Birth Date*</label>
+                        <input required type="date" name="nacimiento" id="nacimiento">
                     </div>
                     <div class="lado">
                         <section>
@@ -68,28 +69,18 @@
                         </section> 
                         <section>
                             <h3>Which elementary school do you live near?</h3>
-                            <h4>Closest School</h4>
-                            <div class="apilar">
-                                <div>
-                                    <input type="radio" name="school" id="AJ Katzenmaier" value="AJ Katzenmaier">
-                                    <label for="AJ Katzenmaier">AJ Katzenmaier</label>
-
-                                    <input type="radio" name="school" id="Greenbay" value="Greenbay">
-                                    <label for="Greenbay">Greenbay</label>
-                                </div> 
-                                <div>
-                                    <input type="radio" name="school" id="Howard A yeager" value="Howard A yeager">
-                                    <label for="Howard A yeager">Howard A yeager</label>
-                                    
-                                    <input type="radio" name="school" id="Marjorie P Hart" value="Marjorie P Hart">
-                                    <label for="Marjorie P Hart">Marjorie P Hart</label>
-                                </div>
-                            <input type="radio" name="school" id="North Elementary" value="North Elementary">
-                            <label for="North Elementary">North Elementary</label>
-
-                            <input type="radio" name="school" id="South Elementary" value="South Elementary">
-                            <label for="South Elementary">South Elementary</label>
-                            </div>
+                            <!-- <h4>Closest School</h4> -->
+                            <label for="select">Closest School:</label>
+                            <select name="school" id="select">
+                                <option disabled selected value="">School</option>
+                                <option value="AJK">AJ Katzenmaier</option>
+                                <option value="Greenbay">Greenbay</option>
+                                <option value="HY">Howard A yeager</option>
+                                <option value="MPH">Marjorie P Hart</option>
+                                <option value="north">North Elementary</option>
+                                <option value="south">South Elementary</option>
+                            </select>
+                            
                         </section> 
                     </div>
                 </div>
@@ -97,18 +88,18 @@
                     <div>
                         <h4>What position(s) do you normally play? (check all that apply)</h4>
                         <div class="apilar">
-                            <input type="radio" name="position" id="Forward" value="Forward">
+                            <input type="checkbox" name="position" id="Forward" value="Forward">
                             <label for="Forward">Forward</label>
 
-                            <input type="radio" name="position" id="Defense" value="Defense">
+                            <input type="checkbox" name="position" id="Defense" value="Defense">
                             <label for="Defense">Defense</label>
                         </div>
                         <div class="apilar">
                     
-                            <input type="radio" name="position" id="Midfield" value="Midfield">
+                            <input type="checkbox" name="position" id="Midfield" value="Midfield">
                             <label for="Midfield">Midfield</label>
 
-                            <input type="radio" name="position" id="Goalkeeper" value="Goalkeeper">
+                            <input type="checkbox" name="position" id="Goalkeeper" value="Goalkeeper">
                             <label for="Goalkeeper">Goalkeeper</label>
                         </div>
                     </div>
@@ -144,18 +135,22 @@
                 <div id="abajo">
                     <h4>Permission to Play</h4>
                     <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Migthy Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices anda games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.</p>
-                    <p>By signing below, I here by agree and autorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms</p>
+                    <p>By entering your name below, I here by agree and autorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms</p>
                 </div>
                 <div id="firmas">
                     <div>
-                        <label for="signature">Parent/GuardianSignature:</label>
-                        <input type="text" name="signature" id="signature">
+                        <label for="signature">Parent/GuardianSignature*:</label>
+                        <input required type="text" name="signature" id="signature">
                     </div>
                     <div>
                         <label for="date">Date</label>
-                        <input type="text" name="date" id="date">
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div id="boton">
+                        <input type="submit" value="SUBMIT">
                     </div>
                 </div>
+                
             </form>
         </div>
         </section>
