@@ -233,7 +233,6 @@ caption{
     background-color: aqua;
     color: black;
     font-weight: bold;
-    
 }
 th, td{
     padding: .2rem;
@@ -430,5 +429,45 @@ form #boton{
     font-size: 250%;
     width: 30%;
     padding: .6rem;
-    
 }
+/*-------------------------------------------------------------Mediaqueries (INCOMPLETO)-----------------------------------------------------------*/
+@media  screen and (max-width:768px) {
+   /*-------------------------------------------Home------------------------------------------*/
+    #snoppy, #imagen1{
+        height: 20rem;
+        width: 25rem;   
+        margin-left: 20%;  
+    }
+    .home dd{
+        text-align: center;
+    }
+    /*------------------------------------------about---------------------------------------------*/
+    .mision{
+        display:flex;
+        align-items:center;
+        flex-direction: column;
+    }
+    /*-------------------------------------------contact----------------------------------------*/
+    #contact div{
+        flex-direction:column;
+        padding: .9rem;
+    }
+    #contact .diferente{
+        align-content: center;
+    }
+    /*-------------------------------------registration------------------------------------*/
+    form #arriba{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border-radius: 2%;
+    }
+    form #medio{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0rem;
+        border-radius:15% ;
+    }
+}
+
